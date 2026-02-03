@@ -62,7 +62,7 @@ python3 gui_app.py
 ```
 
 📂 Project Structure
-Plaintext
+```text
 Taverna_Manager/
 │
 ├── gui_app.py        # The Main Application (User Interface)
@@ -70,14 +70,14 @@ Taverna_Manager/
 ├── history.json      # Auto-generated database (stores reservations)
 ├── README.md         # Project Documentation
 └── .gitignore        # Files to exclude from Git
-
+```
 
 
 
 📸 Monthly Report Example
 The application generates reports in the following format (report_YYYY-MM.txt):
 
-Plaintext
+```text
 === ΜΗΝΙΑΙΑ ΑΝΑΦΟΡΑ: 2026-02 ===
 Σύνολο Κρατήσεων: 45
 ΣΥΝΟΛΙΚΑ TIPS:    850.0€
@@ -88,6 +88,9 @@ Plaintext
 Λάντζα:           85.0€
 ------------------------------
 Εκδόθηκε στις: 2026-02-28 23:59
+```
+
+
 
 👨‍💻 Author
 Developed by Emmanouil Drakonakis
