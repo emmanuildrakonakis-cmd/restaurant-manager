@@ -7,9 +7,9 @@ Built with **CustomTkinter** for a sleek Dark Mode UI and **JSON** for robust da
 
 ---
 
-## Features
+##  Features
 
-### Reservation Management
+###  Reservation Management
 * **Add New Bookings:** Quickly input customer details (Name, Date, Time, Pax, Table).
 * **Real-Time Status:** Visual indicators for **Open** (🟢) and **Closed/Paid** (🔴) tables.
 * **Calendar Filtering:** Search and view reservations for specific dates using the built-in filter.
@@ -47,18 +47,24 @@ Open your terminal (Command Prompt on Windows / Terminal on Mac) and run:
 
 ```bash
 pip install customtkinter
+
+
 3. Run the Application
 Navigate to the project folder and run the main GUI file:
 
 For Windows:
 
-Bash
+```bash
 python gui_app.py
 For Mac / Linux:
 
-Bash
+```bash
 python3 gui_app.py
- Project Structure
+
+
+
+
+📂 Project Structure
 Plaintext
 Taverna_Manager/
 │
@@ -67,7 +73,10 @@ Taverna_Manager/
 ├── history.json      # Auto-generated database (stores reservations)
 ├── README.md         # Project Documentation
 └── .gitignore        # Files to exclude from Git
- Monthly Report Example
+
+
+
+📸 Monthly Report Example
 The application generates reports in the following format (report_YYYY-MM.txt):
 
 Plaintext
@@ -81,6 +90,10 @@ Plaintext
 Λάντζα:           85.0€
 ------------------------------
 Εκδόθηκε στις: 2026-02-28 23:59
+
+
+
+
 👨‍💻 Author
 Developed by Emmanouil Drakonakis
 Restaurant Management System v4.0
