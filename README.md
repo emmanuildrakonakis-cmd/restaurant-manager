@@ -1,4 +1,4 @@
-# 🍽️ Taverna Manager App
+# 🍽️Tavern Manager App
 
 A modern, Python-based desktop application designed for efficient restaurant management.
 It handles **reservations**, **real-time table status**, **tips calculation**, and **monthly financial reporting**.
@@ -7,25 +7,25 @@ Built with **CustomTkinter** for a sleek Dark Mode UI and **JSON** for robust da
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ Reservation Management
+###  Reservation Management
 * **Add New Bookings:** Quickly input customer details (Name, Date, Time, Pax, Table).
 * **Real-Time Status:** Visual indicators for **Open** (🟢) and **Closed/Paid** (🔴) tables.
 * **Calendar Filtering:** Search and view reservations for specific dates using the built-in filter.
 
-### 💰 Financial Tools & Reporting
+###  Financial Tools & Reporting
 * **Checkout System:** Close tables, add tips, and auto-save transaction history.
 * **Monthly Reports:** Automatically generates detailed `.txt` reports for end-of-month accounting.
 * **Tip Distribution:** Calculates staff shares (Waiters, Kitchen, Cleaning) based on predefined percentages.
 
-### 💾 Data Persistence
+###  Data Persistence
 * **Auto-Save:** All data is stored locally in `history.json`.
 * **Crash-Proof:** Data is reloaded automatically upon restarting the application, ensuring no reservations are lost.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Language:** Python 3.10+
 * **GUI Framework:** [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) (Modern UI)
@@ -34,7 +34,7 @@ Built with **CustomTkinter** for a sleek Dark Mode UI and **JSON** for robust da
 
 ---
 
-## 📥 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 You need **Python 3** installed on your system.
@@ -62,7 +62,7 @@ python3 gui_app.py
 ```
 
 📂 Project Structure
-
+Plaintext
 Taverna_Manager/
 │
 ├── gui_app.py        # The Main Application (User Interface)
@@ -73,10 +73,11 @@ Taverna_Manager/
 
 
 
+
 📸 Monthly Report Example
 The application generates reports in the following format (report_YYYY-MM.txt):
 
-
+Plaintext
 === ΜΗΝΙΑΙΑ ΑΝΑΦΟΡΑ: 2026-02 ===
 Σύνολο Κρατήσεων: 45
 ΣΥΝΟΛΙΚΑ TIPS:    850.0€
@@ -87,7 +88,6 @@ The application generates reports in the following format (report_YYYY-MM.txt):
 Λάντζα:           85.0€
 ------------------------------
 Εκδόθηκε στις: 2026-02-28 23:59
-
 
 👨‍💻 Author
 Developed by Emmanouil Drakonakis
